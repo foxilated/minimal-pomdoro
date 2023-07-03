@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/home/khaled/stuff/code/minimal-pomdoro/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/home/khaled/stuff/code/minimal-pomdoro/node_modules/.pnpm/nuxt@3.6.1_@types+node@18.16.18/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/home/khaled/stuff/code/minimal-pomdoro"
+      ],
+      "~/*": [
+        "/home/khaled/stuff/code/minimal-pomdoro/*"
+      ],
+      "@": [
+        "/home/khaled/stuff/code/minimal-pomdoro"
+      ],
+      "@/*": [
+        "/home/khaled/stuff/code/minimal-pomdoro/*"
+      ],
+      "~~": [
+        "/home/khaled/stuff/code/minimal-pomdoro"
+      ],
+      "~~/*": [
+        "/home/khaled/stuff/code/minimal-pomdoro/*"
+      ],
+      "@@": [
+        "/home/khaled/stuff/code/minimal-pomdoro"
+      ],
+      "@@/*": [
+        "/home/khaled/stuff/code/minimal-pomdoro/*"
+      ],
+      "assets": [
+        "/home/khaled/stuff/code/minimal-pomdoro/assets"
+      ],
+      "assets/*": [
+        "/home/khaled/stuff/code/minimal-pomdoro/assets/*"
+      ],
+      "public": [
+        "/home/khaled/stuff/code/minimal-pomdoro/public"
+      ],
+      "public/*": [
+        "/home/khaled/stuff/code/minimal-pomdoro/public/*"
+      ]
+    }
+  },
+  "include": [
+    "/home/khaled/stuff/code/minimal-pomdoro/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: 'Nunito', sans-serif;
+
+  --background: #111115;
+  --onBackground: #fff;
+
+  --primary: #67c4f2;
+}
+
+body {
+  background: var(--background);
+  color: var(--onBackground);
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+.dicon {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.dicon:hover {
+  transform: translateY(-2px);
+  color: var(--primary) !important;
+}
